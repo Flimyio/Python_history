@@ -9,13 +9,38 @@
 
 <body>
     <!-- Menu -->
-    <ul>
-        <li><a href="1.0">Python</a></li>
-        <li><a href="2.0">Utilisation</a></li>
-        <li><a href="3.0">Historique</a></li>
-    </ul>
+    <div class="layout">
+        <aside="toc">
+            <h2>Table des matières</h2>
+            <ul>
+                <li><a href="#1.0">Python</a></li>
+                <li>
+                    <details>
+                        <summary><a href="#2.0">Utilisation</a></summary>
+                        <ul>
+                            <li><a href="#2.1">Python à l'école</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary><a href="#3.0">Histoire</a></summary>
+                        <ul>
+                            <li><a href="#3.1">Au CWI</a></li>
+                            <li><a href="#3.2">Au CNRI</a></li>
+                            <li><a href="#3.3">Zope</a></li>
+                            <li><a href="#3.4">La Python Software Foundation</a></li>
+                            <li><a href="#3.5">Google</a></li>
+                            <li><a href="#3.6">Dropbox</a></li>
+                            <li><a href="#3.7">Microsoft</a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </aside>
+    <main>
     <!-- 1.0-->
-    <h1>
+    <h1 id="1.0">
         Python
     </h1>
         <p>
@@ -30,7 +55,7 @@
         </p>
 
     <!-- 2.0 -->
-    <h1>
+    <h1 id="2.0">
         Utilisation
     </h1>
         <p>
@@ -75,11 +100,11 @@
                 Les premières épreuves de concours portant sur le langage Python sont également celles de la session 2015.
             </p>
     <!-- 3.0 -->
-    <h1>
+    <h1 id="3.0">
         Historique
     </h1>
         <!-- 3.1-->
-        <h2>
+        <h2 id="3.1">
             Au CWI
         </h2>
             <p>
@@ -102,7 +127,7 @@
                 La dernière version sortie au CWI est Python 1.2.
             </p>
         <!-- 3.2-->
-        <h2>
+        <h2 id="3.2">
             Au CNRI
         </h2>
             <p>
@@ -126,7 +151,7 @@
                 Python 1.6 est la dernière version sortie au CNRI.
             </p>
         <!-- 3.3-->
-        <h2>
+        <h2 id="3.3">
             Zope
         </h2>
             <p>
@@ -134,7 +159,7 @@
                 Après cette version, Guido van Rossum et les autres développeurs de PythonLabs rejoignent Digital Creations à présent connue sous le nom de Zope Corporation.
             </p>
         <!-- 3.4-->
-        <h2>
+        <h2 id="3.4">
             La Python Software Foundation
         </h2>
             <p>
@@ -143,7 +168,7 @@
                 Tout code, documentation et spécification ajouté, depuis la sortie de Python 2.1 alpha, est détenu par la Python Software Foundation (PSF), une association sans but lucratif fondée en 2001, modelée d'après l'Apache Software Foundation.
             </p>
         <!-- 3.5-->
-        <h2>
+        <h2 id="3.5">
             Google
         </h2>
             <p>
@@ -162,14 +187,14 @@
                 En 2012, Python 3.1 corrige les erreurs de jeunesse de la version 3.0.
             </p>
         <!-- 3.6-->
-        <h2>
+        <h2 id="3.6">
             Dropbox
         </h2>
             <p>
                 En 2013, Guido van Rossum est embauché par Dropbox (mypy) jusqu'en 2019.
             </p>
         <!-- 3.7-->
-        <h2>
+        <h2 id="3.7">
             Microsoft
         </h2>
             <p>
@@ -182,5 +207,7 @@
             <p>
                 En août 2025, Python occupe la première place de ce classement.
             </p>
+    </main>
+    </div>
 </body>
 </html>
