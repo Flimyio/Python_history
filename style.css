@@ -1,3 +1,39 @@
-p {
-    color: blue;
+p, h1, h2, h3, h4, h5, h6 {
+    color: #B7C4EF;
+    margin: 20px; 
+}
+
+body {
+    background-color: #1E1E2E;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #B7C4EF;
+    text-decoration-thickness: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1E1E2E;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #B7C4EF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
